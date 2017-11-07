@@ -1,0 +1,51 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #2E9AFE;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.header {
+  background-color: #0174DF;
+  color: white;
+  padding-bottom: 15px;
+}
+.boton-tab, .buscador, .Trello, .icon {
+  display: inline-block;
+}
+.fa-trello, .tab {
+  display: inline-block;
+}
+.fa-trello {
+  margin-left: 7px;
+}
+.boton-tab {
+  border-radius: 5px;
+  background-color: #81BEF7;
+  width: 100px;
+  padding: 7px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.Busc {
+  background-color: #81BEF7;
+  color: white;
+  width: 180px;
+  border: none;
+  outline: none;
+}
+.fa-search {
+  cursor: pointer;
+}
+.buscador {
+  border-radius: 5px;
+  background-color: #81BEF7;
+  width: 200px;
+  padding: 7px;
+  margin-left: 10px;
+}
+.Trello {
+  width: 100px;
+  height: 30px;
+  padding-top: 5px;
+  margin-left: 225px;
+}
