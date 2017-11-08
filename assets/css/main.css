@@ -1,9 +1,11 @@
+/*Cuerpo HTML*/
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #2E9AFE;
   margin: 0 auto;
   overflow-x: hidden;
 }
+/*Barra de Trello*/
 .header {
   background-color: #0174DF;
   color: white;
@@ -48,4 +50,83 @@ body {
   height: 30px;
   padding-top: 5px;
   margin-left: 225px;
+}
+.icon {
+  margin-left: 470px;
+}
+.fa-plus, .fa-info-circle, .fa-bell {
+  border-radius: 5px;
+  background-color: #81BEF7;
+  width: 15px;
+  padding: 7px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.fa-user-circle {
+  font-size: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.text1, .fa-star-o, .fa-user-o, .text2, .fa-ellipsis-h, .menu {
+  color: white;
+  display: inline-block;
+}
+.text1, .fa-star-o {
+  margin-left: 20px;
+}
+.fa-user-o {
+  margin-left: 30px;
+}
+.text2 {
+  margin-left: 5px;
+}
+.fa-ellipsis-h {
+  margin-left: 720px;
+}
+.menu {
+  font-weight: 600;
+}
+/*Formulario donde se agregan los datos*/
+.lista {
+  background-color: #0174DF;
+  color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.formulario {
+  width: 300px;
+  height: auto;
+  background-color: #E2E4E6;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.entrada {
+  width: 280px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.boton, .fa-times {
+  display: inline-block;
+}
+.boton {
+  background-color: #5BAE45;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+.fa-times {
+  font-size: 20px;
+  color: grey;
+  margin-left: 5px;
+  cursor: pointer;
 }
