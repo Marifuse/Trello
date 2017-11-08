@@ -130,3 +130,7 @@ body {
   margin-left: 5px;
   cursor: pointer;
 }
+
+.ordenado {
+  display: inline-block;
+}
