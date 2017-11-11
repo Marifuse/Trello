@@ -81,21 +81,30 @@ body {
   margin-left: 5px;
 }
 .fa-ellipsis-h {
-  margin-left: 720px;
+  margin-left: 700px;
 }
 .menu {
   font-weight: 600;
 }
 /*Formulario donde se agregan los datos*/
-.lista {
+#text3 {
   background-color: #0174DF;
   color: white;
-  width: 300px;
+  width: 250px;
   padding: 10px;
   border-radius: 5px;
-  margin-left: 10px;
+  margin-left: 20px;
+  display: inline-block;
+  cursor: text;
 }
-.formulario {
+#text3:hover {
+  cursor: text;
+  background-color: #0B2161;
+}
+#Cuadro, #Cuadro2 {
+  display: inline-block;
+}
+#Cuadro {
   width: 300px;
   height: auto;
   background-color: #E2E4E6;
@@ -104,19 +113,14 @@ body {
   margin-top: 10px;
   padding: 10px;
 }
-.entrada {
-  width: 280px;
-  margin-left: 5px;
+#textInput {
+  background-color: #BDBDBD;
+  width: 295px;
   margin-top: 5px;
   margin-bottom: 10px;
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
+  display: block;
 }
-.boton, .fa-times {
-  display: inline-block;
-}
-.boton {
+#boton {
   background-color: #5BAE45;
   color: white;
   padding: 10px;
@@ -130,7 +134,41 @@ body {
   margin-left: 5px;
   cursor: pointer;
 }
-
-.ordenado {
-  display: inline-block;
+/*Cuadro dos*/
+#Cuadro2 {
+  width: 300px;
+  height: auto;
+  background-color: #E2E4E6;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  float: left;
+}
+#label2 {
+  display: block;
+}
+#cuadroText {
+  width: 295px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: block;
+}
+#boton2 {
+  background-color: #5BAE45;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+#Cuadro3 {
+  width: 300px;
+  height: auto;
+  background-color: #E2E4E6;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: -20px;
+  padding: 10px;
+  display: table-caption;
 }
